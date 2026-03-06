@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Nosara Fiscal Reality</title>
+<style>
+:root{--n:#1c3058;--r:#c82038;--c:#e8e8e0;--w:#fff;--nl:#2a4070;--rl:#fde8eb;--t:#4a5568;--m:#F2A900;--ml:#FFF3D4}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Trebuchet MS',sans-serif;background:var(--c);color:var(--n);line-height:1.55;min-height:100dvh}
+.p{width:100%;max-width:430px;margin:0 auto;background:var(--w);position:relative;overflow:hidden;min-height:100dvh}
+.tb{height:4px;background:linear-gradient(90deg,var(--r),var(--n))}
+.dc{position:absolute;border-radius:50%;pointer-events:none}
+.c1{width:80px;height:80px;border:8px solid var(--r);top:-20px;right:-20px;opacity:.12}
+.c2{width:50px;height:50px;border:6px solid var(--n);bottom:120px;left:-15px;opacity:.08}
+.ss{position:absolute;top:0;right:0;width:5px;height:100%;background:repeating-linear-gradient(180deg,var(--n) 0 40px,var(--w) 40px 50px,var(--r) 50px 90px,var(--w) 90px 100px,var(--c) 100px 130px,var(--w) 130px 140px);opacity:.6}
+.hd{padding:24px 20px 16px;padding-right:28px}
+.tg{display:inline-block;font-size:8px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--r);background:var(--rl);padding:4px 10px;border-radius:3px;margin-bottom:12px}
+h1{font-size:22px;font-weight:700;line-height:1.2;color:var(--n);margin-bottom:6px}
+h1 .rd{color:var(--r)}
+.st{font-size:12px;color:var(--t);margin-top:4px}
+.dv{height:2px;background:linear-gradient(90deg,var(--n),var(--r) 40%,transparent);margin:0 20px;opacity:.3}
+.ct{padding:20px 20px 24px;padding-right:28px}
+.in{font-size:13px;line-height:1.7;margin-bottom:20px;text-align:justify}
+.in strong{color:var(--n)}
+.mb{background:linear-gradient(135deg,var(--ml),#FFF8E7);border-left:3px solid var(--m);border-radius:0 8px 8px 0;padding:16px 18px;margin-bottom:20px;cursor:pointer;user-select:none}
+.ml{font-size:9px;font-weight:700;letter-spacing:1.5px;color:#8B6914;margin-bottom:10px}
+.mg{display:flex;flex-wrap:wrap;gap:2px;margin-bottom:12px;min-height:48px}
+.mg span{font-size:15px;display:inline-block}
+.mg.animated span{transition:all .4s}
+.mg .lo{opacity:.12;transform:scale(.75);filter:grayscale(1)}
+.mg .tk{opacity:.3;transform:scale(.8)}
+.mg .kp{transform:scale(1.35);filter:drop-shadow(0 2px 4px rgba(242,169,0,.4))}
+.mt{font-size:13px;font-weight:600;color:#5C3D2E;line-height:1.55;margin-bottom:2px}
+.ms{font-size:11px;color:#8B6914;opacity:.7}
+.sg{display:grid;grid-template-columns:1fr;gap:10px;margin-bottom:22px}
+.sc{border-radius:10px;padding:16px 14px;text-align:center;position:relative;overflow:hidden;color:#fff;display:flex;align-items:center;gap:14px}
+.sc.nv{background:var(--n)}.sc.rd{background:var(--r)}.sc.dk{background:var(--nl)}
+.sn{font-size:26px;font-weight:700;line-height:1.1;flex-shrink:0}
+.sl{font-size:11px;opacity:.85;line-height:1.35;font-weight:500;text-align:left}
+.fd h2{font-size:16px;font-weight:700;color:var(--n);margin-bottom:12px}
+.fr{display:flex;align-items:flex-start;gap:10px;margin-bottom:10px;font-size:12px;line-height:1.6;text-align:justify}
+.fi{flex-shrink:0;width:24px;height:24px;background:var(--rl);border:1px solid rgba(200,32,56,.12);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;margin-top:1px}
+.fr strong{color:var(--n)}
+.cs{background:var(--n);border-radius:10px;padding:18px 20px;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px;margin:20px 0 14px}
+.cs .tx{color:#fff}
+.cs h3{font-size:15px;font-weight:700;margin-bottom:4px}
+.cs p{font-size:11px;opacity:.7;line-height:1.5}
+.cl{background:var(--r);color:#fff;font-weight:700;font-size:10.5px;padding:10px 18px;border-radius:6px;letter-spacing:.5px;white-space:nowrap;text-align:center}
+.cw{text-align:center;margin-bottom:22px}
+.cb{font-size:13px;font-weight:700;letter-spacing:1.5px;color:var(--r);border-bottom:2px solid var(--r);padding-bottom:2px;cursor:pointer}
+.ci{display:none;margin-top:12px;background:var(--rl);border-radius:8px;padding:14px 18px;font-size:13px;line-height:1.7;color:var(--n)}
+.ci a{color:var(--r);text-decoration:none}
+.fw{border-top:1px solid var(--c);margin:0 20px;padding:16px 0 24px;display:flex;flex-direction:column;gap:14px;font-size:10px;color:var(--t)}
+.fw .l{line-height:1.7}.fw .r{line-height:1.7}
+.fw strong{color:var(--n)}.fw a{color:var(--r);text-decoration:none}
+@media(min-width:431px){
+.p{box-shadow:0 0 40px rgba(0,0,0,.08)}
+.sg{grid-template-columns:1fr 1fr 1fr}
+.sc{flex-direction:column;gap:0}
+.sl{text-align:center}
+.hd{padding:36px 40px 22px;padding-right:48px}
+.ct{padding:24px 40px 28px;padding-right:48px}
+.dv{margin:0 40px}.fw{margin:0 40px}
+h1{font-size:28px}.in{font-size:14px}.fr{font-size:13px}
+.cs{flex-direction:row;text-align:left}
+.tg{font-size:9px}
+}
+@media(min-width:769px){
+.p{max-width:780px}
+.hd{padding:36px 48px 22px;padding-right:56px}
+.ct{padding:24px 48px 28px;padding-right:56px}
+.dv{margin:0 48px}
+.fw{margin:0 48px;flex-direction:row;justify-content:space-between;align-items:flex-end}
+.fw .r{text-align:right}
+h1{font-size:30px}.in{font-size:14.5px;max-width:660px}
+.ss{width:8px}
+.c1{width:120px;height:120px;border-width:12px;top:-30px;right:-30px}
+.c2{width:80px;height:80px;border-width:8px}
+}
+</style>
+</head>
+<body>
+<div class="p">
+  <div class="tb"></div>
+  <div class="ss"></div>
+  <div class="dc c1"></div>
+  <div class="dc c2"></div>
+  <div class="hd">
+    <div class="tg">Censo Nosara 2024 &#183; Phase II &#183; Territorial Fiscal Balance</div>
+    <h1>Nosara generates $210M in taxes.<br><span class="rd">It gets back less than $11M.</span></h1>
+    <p class="st">The first district-level fiscal study ever conducted in Costa Rica.</p>
+  </div>
+  <div class="dv"></div>
+  <div class="ct">
+    <p class="in">You live in one of the most economically productive districts in Costa Rica. Nosara's economy generates an estimated <strong>$2.13 billion USD per year</strong>; driven by tourism, real estate, construction, and services. But the fiscal system was never designed to measure, collect, or return resources at the district level. So Nosara contributes hundreds of millions in potential tax revenue, and gets almost nothing back. This study; built on <strong>13+ official data sources</strong> and <strong>four independent GDP estimation methods</strong>; puts the numbers on the table for the first time.</p>
+    <div class="mb" id="B">
+      <div class="ml">&#x1F96D; THE MANGO STORY; tap to see what happens</div>
+      <div class="mg" id="G">&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;&#x1F96D;</div>
+      <div class="mt" id="T">Imagine Nosara could produce <strong>1,000 mangos</strong> every year.</div>
+      <div class="ms" id="S">Tap to see what actually happens to them.</div>
+    </div>
+    <div class="sg">
+      <div class="sc nv"><div class="sn">$2.13B</div><div class="sl">Estimated annual GDP of Nosara district</div></div>
+      <div class="sc rd"><div class="sn">19.5&#215;</div><div class="sl">More sent to central gov. than received back</div></div>
+      <div class="sc dk"><div class="sn">96.6%</div><div class="sl">Of short-term rentals operate informally</div></div>
+    </div>
+    <div class="fd">
+      <h2>What did we find?</h2>
+      <div class="fr"><span class="fi">&#x1F4CA;</span><span><strong>GDP validated four ways.</strong> Electricity consumption, tourism revenue, construction activity, and fiscal land values all converge within a 17% range; pointing to a ~$2B+ annual economy.</span></div>
+      <div class="fr"><span class="fi">&#x1F4B0;</span><span><strong>$210.5M in potential tax contributions</strong> to central government (income tax + VAT + $942K/year for Bomberos of Costa Rica), yet Nosara receives only ~$10.8M/year in public investment.</span></div>
+      <div class="fr"><span class="fi">&#x1F3D8;</span><span><strong>Only 51 out of 1,500 short-term rentals</strong> are registered and paying taxes. That's a 96.6% informality rate; representing ~$50M in unreported revenue annually.</span></div>
+      <div class="fr"><span class="fi">&#x1F3DB;</span><span><strong>Nosara contributes ~$4.1M/year to the Municipality</strong> in property tax, business licenses, construction fees, and community services; but receives only $25,500 from that contribution (0.6%). In addition, the Municipality manages $580K of funding for roads from central government transfers to provide a total of $606K/year to Nosara.</span></div>
+      <div class="fr"><span class="fi">&#x1F5FA;</span><span><strong>Fiscal land values haven't been updated since 2017.</strong> Market prices are now 12&#215; higher than assessed values on average. Updating the cadastre alone would multiply property tax revenue from $2.67M to $32.3M; no new laws needed.</span></div>
+    </div>
+    <div class="cs">
+      <div class="tx"><h3>Read the full study</h3><p>123 pages &#183; 53 tables &#183; 48 references &#183; 13+ institutional data sources.<br>The most complete fiscal portrait of any Costa Rican district ever made.</p></div>
+      <span class="cl">READ FULL STUDY BELOW ON THIS PAGE &#8595;</span>
+    </div>
+    <div class="cw">
+      <span class="cb" id="CB">CONTACT US NOW TO JOIN THIS EFFORT</span>
+      <div class="ci" id="CI"><strong>Emmanuel Guti&#233;rrez Pizarro</strong><br>&#9993; adcdesarrollocomunitario&#64;gmail.com<br>&#9742; +506 6142 7330</div>
+    </div>
+  </div>
+  <div class="fw">
+    <div class="l"><strong>Emmanuel Guti&#233;rrez Pizarro</strong><br>Territorial Intelligence &#183; Community Data &#183; Finance &amp; Taxation<br>Coordinator, <a href="https://www.censonosara.com">Censo Nosara 2024</a> &#183; <a href="https://www.linkedin.com/in/emmanuelgpcr">LinkedIn</a><br>adcdesarrollocomunitario&#64;gmail.com &#183; +506 6142 7330</div>
+    <div class="r">Censo Nosara 2024 &#183; Phase II<br>Alianza para el Desarrollo Comunitario<br>Nosara, Nicoya, Guanacaste &#x1F1E8;&#x1F1F7;</div>
+  </div>
+  <div style="height:24px"></div>
+</div>
+<script>
+requestAnimationFrame(function(){var g=document.getElementById("G"),t=document.getElementById("T"),s=document.getElementById("S"),a=0,ready=0;g.innerHTML="";for(var i=0;i<30;i++){var e=document.createElement("span");e.textContent="\uD83E\uDD6D";g.appendChild(e)}setTimeout(function(){g.classList.add("animated");ready=1},100);document.getElementById("B").onclick=function(){if(!ready)return;a=(a+1)%4;var m=g.children,j,l=m.length;if(a===0){for(j=0;j<l;j++)m[j].className="";t.innerHTML='Imagine Nosara could produce <strong>1,000 mangos</strong> every year.';s.textContent="Tap to see what actually happens to them."}else if(a===1){for(j=0;j<l;j++)m[j].className=j>=4?"lo":"";t.innerHTML='867 are <strong>lost</strong> before they reach the basket; stolen, hidden, left to rot, or never picked.';s.textContent="Only 133 make it to harvest. Tap again."}else if(a===2){for(j=0;j<l;j++)m[j].className=j>=4?"lo":j>=1?"tk":"kp";t.innerHTML='The Municipality takes all 133, and gives back <strong>just 1</strong> to Nosara.';s.innerHTML='<span style="color:#c82038;font-weight:700">Out of every 1,000 mangos, only 1 stays in the district.</span>'}else{for(j=0;j<l;j++)m[j].className=j>=4?"lo":j>=1?"tk":"kp";t.innerHTML="That is not a metaphor; it is fiscal injustice. Under the current fiscal structure, Nosara is losing 99.9% of the funding that could be collected and invested in the community. Those are enough funds to cover all the essential services demanded by its population, build public infrastructure, fund law enforcement and ensure effective nature conservation.";s.textContent="Tap to restart."}};document.getElementById("CB").onclick=function(){var c=document.getElementById("CI");c.style.display=c.style.display==="block"?"none":"block"}})
+</script>
+</body>
+</html>
